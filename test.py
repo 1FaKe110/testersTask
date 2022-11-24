@@ -1,15 +1,11 @@
 from sshtunnel import open_tunnel
-from time import sleep
-from QueryHistoryBarcodeGenerator import QueryHistory
 
 
 def main():
-    with open_tunnel(
-            ssh_address_or_host='10.0.50.208',
-            ssh_username="Gabko",
-            ssh_pkey="/home/ifake/.ssh/id_rsa.pub",
-            remote_bind_address=('127.0.0.1', 3306)
-    ) as server:
+    args = {'ssh_address': '208', 'ssh_port': 22, 'remote_bind_addresses': [('10.0.50.208', 20010)], 'threaded': False, 'ssh_config_file': '~/.ssh/config', 'compression': False, 'allow_agent': True,
+            'debug_level': 40}
+
+    with open_tunnel(**args) as server:
         print(server.local_bind_port)
 
     print('FINISH!')

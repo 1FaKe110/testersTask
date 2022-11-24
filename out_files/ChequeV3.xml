@@ -5,49 +5,79 @@
     </ns:Owner>
     <ns:Document>
         <ns:ChequeV3>
-            <ck:Identity>2022-06-11/21/22/1669032402.996053</ck:Identity>
+            <ck:Identity>2022-42-11/21/22/1669034575.37838</ck:Identity>
             <ck:Header>
-                <ck:Date>2022-11-21T15:06:42</ck:Date>
-                <ck:Kassa>1669032402</ck:Kassa>
-                <ck:Shift>545</ck:Shift>
-                <ck:Number>9798</ck:Number>
+                <ck:Date>2022-11-21T15:42:55</ck:Date>
+                <ck:Kassa>1669034575</ck:Kassa>
+                <ck:Shift>918</ck:Shift>
+                <ck:Number>999</ck:Number>
                 <ck:Type>Возврат</ck:Type>
             </ck:Header>
             <ck:Content>
                 <ck:Bottle>
-                    <ck:Barcode>697472000003280000513DRDNJXQSCEIWTCLJRQMSNVIIBFZTAFGNXQXUUUPSHNHOYGUXCLCPJLRPBQJVDXKHCEIJQWWKOAXGGTZAQOEFUEYAIIKJVZOJGNTSGJESNUYNEFCWLUTULQZEDKSNNJSDC</ck:Barcode>
-                    <ck:EAN>4631877518601</ck:EAN>
-                    <ck:Price>605</ck:Price>
+                    <ck:Barcode>654204000001190000226CCWXHUVYHMRHUBLDVSMBQLETTGGEBAIWVCSONGKMCDRUTJQNHCLSEGINFFUINVSFAMXBTLIKESSQLNFILHXEMKNPJXZQRJHESSLTOJRGUBKVCBIQGDQGMZQMNXWXBSPSW</ck:Barcode>
+                    <ck:EAN>1781581244883</ck:EAN>
+                    <ck:Price>2955</ck:Price>
                 </ck:Bottle>
                 <ck:Bottle>
-                    <ck:Barcode>91N000006AIDU9T3RLUCC4121121633356105ZVVUKGOVAPQNHGYOPJYWOMICXXEORZO</ck:Barcode>
-                    <ck:EAN>0237702055385</ck:EAN>
-                    <ck:Price>6255</ck:Price>
+                    <ck:Barcode>434102000004560000865CBKLXPEVQVERPBHIFGPWVKKVHUJXIVAFCWIYBKXWVWLTNXVSLWZEZTPUEMQMRJFFRTTWDEIDSVFWXXCVNSVNJOMTAJDBUBHUXBNWLGODGNZTYZODVABRMDEQCMSPXTALW</ck:Barcode>
+                    <ck:EAN>1930355828455</ck:EAN>
+                    <ck:Price>8354</ck:Price>
                 </ck:Bottle>
                 <ck:Bottle>
-                    <ck:Barcode>63N00000LLLSBMOC4S4C52P21121333108009VZPHRZKTVYEXJVCJXXRWETVIFKDGGGU</ck:Barcode>
-                    <ck:EAN>7143309084079</ck:EAN>
-                    <ck:Price>6343</ck:Price>
+                    <ck:Barcode>019413000003780000524LFCBHAVNMVIJPAEOVWSJRZLPMQWDTXJWACAUTEYUFJUUYQHFAXICAMNJRTVSXYMJKUAGPZPFZAUVDYHAARPZWJJPYCXPXYMCUGSCGBCRXNQPJELYNTEOSERRTUXLOBMGJ</ck:Barcode>
+                    <ck:EAN>4795249129600</ck:EAN>
+                    <ck:Price>5873</ck:Price>
                 </ck:Bottle>
                 <ck:Bottle>
-                    <ck:Barcode>39N000003342U7Q2R1DBX4321121157730697OZOHWWYUAZLARQJSVURNBNJVIJKPBMW</ck:Barcode>
-                    <ck:EAN>4367949058871</ck:EAN>
-                    <ck:Price>3519</ck:Price>
+                    <ck:Barcode>523392000008270000179AAUNSCSNZAGZNWTPIXGKMLBQHTWMRWRVOOFBBGXFLOUKOYLNTVIGLOESFXGMRQHPXSYOLWZKKHRCZGNPPHCVMZKKGETXQXPRTLQSGHHWPHMLPRFYDLHSGOGMZUPTPJPAM</ck:Barcode>
+                    <ck:EAN>0415805333049</ck:EAN>
+                    <ck:Price>9565</ck:Price>
                 </ck:Bottle>
                 <ck:Bottle>
-                    <ck:Barcode>23N0000082F99AJQLMHF02B21121102971384VFAZUNJKPZETRHGVHYQVBXHMIQGPFMI</ck:Barcode>
-                    <ck:EAN>9583879630497</ck:EAN>
-                    <ck:Price>6819</ck:Price>
+                    <ck:Barcode>583897000002870000901SREGNNHIJBCWNSIBMCXDFRXPGMBPUQYFIAMFDRAWHGFFNQYDQPBZGGOOWUSNRCSRHEUHDBJKMAINGSZCOXWNAVWSGRSVECTLYQTEAWOUSYTEMKOHGEYDVTMYBVZVEUZMB</ck:Barcode>
+                    <ck:EAN>8482333991233</ck:EAN>
+                    <ck:Price>4725</ck:Price>
                 </ck:Bottle>
                 <ck:Bottle>
-                    <ck:Barcode>87N000000FR4GI78O6VHSLG21121588721820PWBJJABULVTEFZIISLWMHGVXBWAPYUC</ck:Barcode>
-                    <ck:EAN>0114181002617</ck:EAN>
-                    <ck:Price>9269</ck:Price>
+                    <ck:Barcode>443811000008670000676CZGVKWHENDJBPDHTRKPDZHKBBDJIJUOSRHCWMEUDLDBAOIXERDZURVIEHJZGOHAZUEHOLOSNFFCSMHHPKFLWRQODWXCBMIMFSKSRBJDVONMIXXUEYRUODACGCAGJBSWES</ck:Barcode>
+                    <ck:EAN>7095363575285</ck:EAN>
+                    <ck:Price>5134</ck:Price>
                 </ck:Bottle>
                 <ck:Bottle>
-                    <ck:Barcode>17N00000KKIFNEOV0FKBSGG21121331658056VUWIXEWPJSHPROOZAPLQVRJDZDAQXFI</ck:Barcode>
-                    <ck:EAN>4396448860933</ck:EAN>
-                    <ck:Price>5990</ck:Price>
+                    <ck:Barcode>295456000001850000099KQDSCGHDRZNXPTLPWILDTCVOITZBPHXRXIBKQZEWJRDPMNTECITATTIHBNKWPOWZURQJEZKHQXDFGPEWATQDHAKZJYJHPMJBVTQCQWGSCHJNJWZGNGIDCBPIQQTWFJYEO</ck:Barcode>
+                    <ck:EAN>0908343431040</ck:EAN>
+                    <ck:Price>1222</ck:Price>
+                </ck:Bottle>
+                <ck:Bottle>
+                    <ck:Barcode>932496000002030000441NZJNNHMJBTICVTGSXTMLFKCCHKUWKBUOSLXODGDMOZGDKSDTKNMPWXRDKXEVPIZBBIEZWCYKBRSAYMXVMIBCRPDSLPPSKSNVKYWPCCVYYSHHKAYVNTJKAIZHOSTMODAQF</ck:Barcode>
+                    <ck:EAN>1633419322426</ck:EAN>
+                    <ck:Price>1809</ck:Price>
+                </ck:Bottle>
+                <ck:Bottle>
+                    <ck:Barcode>39N00000QNBG5ZTUC1RJ54621121732165075OCLHXGIMVELLZYZJIHXGNGRZAKIMAIQ</ck:Barcode>
+                    <ck:EAN>9347208461458</ck:EAN>
+                    <ck:Price>8450</ck:Price>
+                </ck:Bottle>
+                <ck:Bottle>
+                    <ck:Barcode>61N000001K9U8LBIUMU1V5621121054933632CBQLHJNACGIUZGDDQQGGVWQKOXDJQYU</ck:Barcode>
+                    <ck:EAN>3005507706633</ck:EAN>
+                    <ck:Price>178</ck:Price>
+                </ck:Bottle>
+                <ck:Bottle>
+                    <ck:Barcode>52N00000J1ICUEQLW5V3YST21121154126640YTOUYOYUVWPJDKEPOPAEYYWRQSIGAXI</ck:Barcode>
+                    <ck:EAN>9638035141784</ck:EAN>
+                    <ck:Price>3095</ck:Price>
+                </ck:Bottle>
+                <ck:Bottle>
+                    <ck:Barcode>59N000004CRQLJCQDK01JXK21121933167504BKFIRAPYESKKGUKYCXMXPKJTRFSFIXC</ck:Barcode>
+                    <ck:EAN>0480963937843</ck:EAN>
+                    <ck:Price>7410</ck:Price>
+                </ck:Bottle>
+                <ck:Bottle>
+                    <ck:Barcode>41N00000O9PHBPV8QCQKF3721121536225262KQRQVLGRWFLREDWRMWLAHPYVCBKEFIC</ck:Barcode>
+                    <ck:EAN>2494208281309</ck:EAN>
+                    <ck:Price>5828</ck:Price>
                 </ck:Bottle>
             </ck:Content>
         </ns:ChequeV3>

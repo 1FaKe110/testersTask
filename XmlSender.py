@@ -4,6 +4,8 @@ import requests as rq
 from lxml import etree as et
 from dataclasses import dataclass
 from os import getlogin
+import logging
+
 
 import paramiko
 import sshtunnel
@@ -31,26 +33,34 @@ class XmlSender:
 
     def __init__(self, circuit):
         self.netty = self.__main_circuits[circuit]['netty']
+        self.logger = logging.getLogger(__name__)
 
     def send(self, etree_file):
         xml = et.tostring(etree_file, encoding='utf-8')
         files = {'file': xml.decode("utf-8")}
 
-        with sshtunnel.open_tunnel(
-            ('10.0.50.208', 443),
-            ssh_username='Gabko',
+        tunnel = sshtunnel.SSHTunnelForwarder(
+            '208',
+            remote_bind_address=('10.0.50.208', 20010),
+            ssh_config_file=f'/home/{getlogin()}/.ssh/config',
             ssh_pkey=f'/home/{getlogin()}/.ssh/id_rsa',
+            ssh_username='Gabko',
+            logger=self.logger
+        )
+        # print(tunnel.read_private_key_file(f'/home/{getlogin()}/.ssh/id_rsa'))
+        print(tunnel.start())
+        print(tunnel.stop())
 
+        # tunnel.start()
+        # print(tunnel.local_bind_port)
+        # resp = rq.post(self.netty, files=files, timeout=1)
+        # tunnel.stop()
 
-
-        ) as tunnel:
-            resp = rq.post(self.netty, files=files)
-
-
-        return resp
+        return ''
 
 
 def main():
+    logging.getLogger('main').setLevel(logging.DEBUG)
     sender = XmlSender('test')
     resp = sender.send(et.parse('out_files/ChequeV0.xml'))
     pprint(resp)
